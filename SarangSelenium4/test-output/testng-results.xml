@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-02T11:47:23 IST" name="Suite" finished-at="2022-06-02T11:51:54 IST" duration-ms="271297">
+    <groups>
+    </groups>
+    <test started-at="2022-06-02T11:47:23 IST" name="ChromeTest" finished-at="2022-06-02T11:48:45 IST" duration-ms="82302">
+      <class name="testNgclass.testNgAnnotationofFlipkart">
+        <test-method is-config="true" signature="launchthebrowser(java.lang.String)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:47:23 IST" name="launchthebrowser" finished-at="2022-06-02T11:47:29 IST" duration-ms="6352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchthebrowser -->
+        <test-method is-config="true" signature="createpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:47:29 IST" name="createpomobject" finished-at="2022-06-02T11:47:29 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobject -->
+        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:47:29 IST" name="logintoapplication" finished-at="2022-06-02T11:48:20 IST" duration-ms="51273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method signature="verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:48:20 IST" name="verifytopofferstab" finished-at="2022-06-02T11:48:30 IST" duration-ms="9895" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_666682e7-8cd2-4f9d-b1b1-4db3c7d9a12f_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_666682e7-8cd2-4f9d-b1b1-4db3c7d9a12f_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testNgclass.testNgAnnotationofFlipkart.verifytopofferstab(testNgAnnotationofFlipkart.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytopofferstab -->
+        <test-method is-config="true" signature="logoutfromapplication(org.testng.ITestResult)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:48:30 IST" name="logoutfromapplication" finished-at="2022-06-02T11:48:35 IST" duration-ms="4462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytopofferstab status=FAILURE method=testNgAnnotationofFlipkart.verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapplication -->
+        <test-method is-config="true" signature="clearpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:48:35 IST" name="clearpomobject" finished-at="2022-06-02T11:48:40 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearpomobject -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@21de60b4]" started-at="2022-06-02T11:48:40 IST" name="CloseTheBrowser" finished-at="2022-06-02T11:48:45 IST" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- testNgclass.testNgAnnotationofFlipkart -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-06-02T11:48:45 IST" name="FirefoxTest" finished-at="2022-06-02T11:50:26 IST" duration-ms="101338">
+      <class name="testNgclass.testNgAnnotationofFlipkart">
+        <test-method is-config="true" signature="launchthebrowser(java.lang.String)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:48:45 IST" name="launchthebrowser" finished-at="2022-06-02T11:49:16 IST" duration-ms="30681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchthebrowser -->
+        <test-method is-config="true" signature="createpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:49:16 IST" name="createpomobject" finished-at="2022-06-02T11:49:16 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobject -->
+        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:49:16 IST" name="logintoapplication" finished-at="2022-06-02T11:49:55 IST" duration-ms="39207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method signature="verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:49:55 IST" name="verifytopofferstab" finished-at="2022-06-02T11:50:01 IST" duration-ms="5538" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_450d4403-c452-4838-9cfc-638cc2fe7744_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_450d4403-c452-4838-9cfc-638cc2fe7744_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testNgclass.testNgAnnotationofFlipkart.verifytopofferstab(testNgAnnotationofFlipkart.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytopofferstab -->
+        <test-method is-config="true" signature="logoutfromapplication(org.testng.ITestResult)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:50:01 IST" name="logoutfromapplication" finished-at="2022-06-02T11:50:10 IST" duration-ms="9390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytopofferstab status=FAILURE method=testNgAnnotationofFlipkart.verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapplication -->
+        <test-method is-config="true" signature="clearpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:50:10 IST" name="clearpomobject" finished-at="2022-06-02T11:50:15 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearpomobject -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@40ef3420]" started-at="2022-06-02T11:50:15 IST" name="CloseTheBrowser" finished-at="2022-06-02T11:50:26 IST" duration-ms="11475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- testNgclass.testNgAnnotationofFlipkart -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-06-02T11:50:26 IST" name="EdgeTest" finished-at="2022-06-02T11:51:54 IST" duration-ms="87344">
+      <class name="testNgclass.testNgAnnotationofFlipkart">
+        <test-method is-config="true" signature="launchthebrowser(java.lang.String)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:50:26 IST" name="launchthebrowser" finished-at="2022-06-02T11:50:46 IST" duration-ms="19179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchthebrowser -->
+        <test-method is-config="true" signature="createpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:50:46 IST" name="createpomobject" finished-at="2022-06-02T11:50:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobject -->
+        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:50:46 IST" name="logintoapplication" finished-at="2022-06-02T11:51:28 IST" duration-ms="41819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method signature="verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:51:28 IST" name="verifytopofferstab" finished-at="2022-06-02T11:51:39 IST" duration-ms="11264" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_b760cd33-0785-4f95-be45-be23d58e30a9_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_024da63e-2a30-4fcd-9c3c-198daaf4ed96_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU] but found [https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_b760cd33-0785-4f95-be45-be23d58e30a9_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testNgclass.testNgAnnotationofFlipkart.verifytopofferstab(testNgAnnotationofFlipkart.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytopofferstab -->
+        <test-method is-config="true" signature="logoutfromapplication(org.testng.ITestResult)[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:51:39 IST" name="logoutfromapplication" finished-at="2022-06-02T11:51:44 IST" duration-ms="4868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytopofferstab status=FAILURE method=testNgAnnotationofFlipkart.verifytopofferstab()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapplication -->
+        <test-method is-config="true" signature="clearpomobject()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:51:44 IST" name="clearpomobject" finished-at="2022-06-02T11:51:49 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearpomobject -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:testNgclass.testNgAnnotationofFlipkart@59fd97a8]" started-at="2022-06-02T11:51:49 IST" name="CloseTheBrowser" finished-at="2022-06-02T11:51:54 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- testNgclass.testNgAnnotationofFlipkart -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
